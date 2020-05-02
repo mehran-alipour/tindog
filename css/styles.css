@@ -1,0 +1,167 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+p {
+  color: #8f8f8f;
+}
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+/* Sections */
+
+.color-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+
+/* title section */
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+#dogPhone {
+  width: 60%;
+  animation-name: example;
+  animation-duration: 4s;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 10%;
+}
+@media (min-width: 992px) {
+  @keyframes example {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(25deg);
+    }
+  }
+}
+
+.navbar {
+  padding: 0 0 4.4rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: 900;
+}
+.nav-item {
+  margin: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 200px;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/*Features Section*/
+#features {
+  position: relative;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.features-icon-box {
+  padding: 5%;
+}
+
+.features-icon {
+  color: #f08595;
+  margin: 40px auto 25px;
+}
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  background-color: #f08595;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #f08595;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 15px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+.pric-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+.download-footer-btn {
+  margin-top: 100px;
+}
+.footer-icon {
+  margin: 0 20px 60px;
+  color: #30363b;
+}
+.footer-icon:hover {
+  color: #8f8f8f;
+}
+
+@media (max-width: 992px) {
+  #dogPhone {
+    position: static;
+    transform: rotate(0deg);
+  }
+  @keyframes example {
+    from {
+      transform: rotate(25deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+  #title {
+    text-align: center;
+  }
+}
