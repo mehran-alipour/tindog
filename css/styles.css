@@ -153,6 +153,13 @@ p {
     position: static;
     transform: rotate(0deg);
   }
+  #title .container-fluid {
+    text-align: center;
+  }
+  .nav-item a,
+  .navbar-dark .navbar-toggler {
+    font-size: 2rem;
+  }
   @keyframes example {
     from {
       transform: rotate(25deg);
